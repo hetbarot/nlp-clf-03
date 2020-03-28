@@ -1,0 +1,10 @@
+channels:
+- defaults
+dependencies:
+- python=3.6.9
+- pip:
+  - mlflow
+  - cloudpickle==1.2.2
+  - sklearn
+  - lime
+name: mlflow-env
